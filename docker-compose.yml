@@ -143,7 +143,7 @@ services:
       - 8085:8080
       - 8443:8443
     volumes:
-      - ./etc/iceberg.properties:/etc/trino/catalog/iceberg.properties
+      - ./etc:/etc/trino/catalog
     environment:
       - CATALOG_MANAGEMENT:dynamic
 
