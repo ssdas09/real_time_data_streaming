@@ -1,0 +1,7 @@
+.venv
+.idea
+__pycache__
+*.tar
+iceberg-connector-config.properties
+kafka-connect.properties
+*.png
